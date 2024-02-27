@@ -17,7 +17,7 @@ type Story = StoryObj<typeof Label>;
 export const Primary: Story = {
   render: () => (
     <div>
-      <Label htmlFor="test">Test</Label>
+      <Label htmlFor="test">New test</Label>
       <input id="test" />,
     </div>
   ),
