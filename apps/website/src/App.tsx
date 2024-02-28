@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Button>test</Button>
-      <Label htmlFor="test">Test label</Label>
+      <Label htmlFor="test">Test label new</Label>
     </>
   );
 }
