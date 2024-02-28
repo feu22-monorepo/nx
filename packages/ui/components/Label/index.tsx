@@ -5,7 +5,7 @@ export function Label({
   htmlFor,
 }: {
   children: React.ReactNode;
-  htmlFor?: string;
+  htmlFor: string;
 }) {
   return (
     <label htmlFor={htmlFor} className={label}>
